@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\CamMove.cs" />
     <Compile Include="Assets\Scripts\CatSceane.cs" />
     <Compile Include="Assets\Scripts\DemonControl.cs" />
+    <Compile Include="Assets\Scripts\FollingPlatform.cs" />
     <Compile Include="Assets\Scripts\GameControl.cs" />
     <Compile Include="Assets\Scripts\HaronQustion.cs" />
     <Compile Include="Assets\Scripts\HaronsShip.cs" />
