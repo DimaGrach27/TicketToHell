@@ -8,6 +8,7 @@ TagManager:
   - LifePotion
   - AddLife
   - MovingPlatform
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - 
   - Ground
   - Player
-  - 
-  - 
+  - Enemy
+  - IgnoreAll
   - 
   - 
   - 

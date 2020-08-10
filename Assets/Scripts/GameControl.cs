@@ -5,6 +5,8 @@ public class GameControl : MonoBehaviour
 {
     public static bool death;
     public static bool finishLevel;
+    public AudioSource buttomStart;
+    public AudioSource audiomMainMenu;
 
     private void Start()
     {
@@ -35,5 +37,12 @@ public class GameControl : MonoBehaviour
     public void QuitTheGame()
     {
         Application.Quit();
+    }
+
+    public void StartGame()
+    {
+        buttomStart.Play();
+        audiomMainMenu.Stop();
+        Invoke("LoadNextScene", 2.5f);
     }
 }

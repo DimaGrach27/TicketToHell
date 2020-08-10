@@ -67,4 +67,9 @@ public class HelsSystem : MonoBehaviour
         }
             
     }
+
+    public void TakeDamagePlayer(int damage)
+    {
+        health -= damage;
+    }
 }
